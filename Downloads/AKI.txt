@@ -1,0 +1,19 @@
+AKI:http://101.89.95.211:29047/tree/AKI_program/icu_intime
+preprocess.ipynb  这个是AKI模型mimic的数据预处理
+
+http://101.89.95.211:29047/notebooks/eICU/generate_result_data.ipynb 
+这个是AKI的eicu的数据预处理
+http://101.89.95.211:29047/notebooks/AKI_program/icu_intime/lstm_2attention.ipynb 这个是AKI mimic的模型和结果
+http://101.89.95.211:29047/notebooks/eICU/lstm.ipynb
+这个是AKI eicu的模型和结果
+
+
+
+
+死亡预测模型：
+http://101.89.95.211:29047/tree/eICU/death/generate_eicu_data.ipynb
+这个是死亡预测模型 eicu 的预处理
+http://101.89.95.211:29047/tree/eICU/death/generate_mimic_data.ipynb
+这个是死亡预测模型 mimic的预处理
+http://101.89.95.211:29047/notebooks/eICU/death/lstm_use_eicu_train.ipynb
+这个是死亡预测模型，eicu训练，拿mimic外部测试
